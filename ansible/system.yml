@@ -4,7 +4,11 @@
 
   tasks:
   - name: Test shell.
-    shell: ifconfig
+    shell: whoami
+    become: yes
+    become_user: cris
 
   - name: Test shell.
-    command: whoami
+    command: ifconfig
+    become: yes
+    become_user: cris
