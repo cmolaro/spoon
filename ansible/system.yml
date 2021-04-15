@@ -1,7 +1,5 @@
 ---
 
-- hosts: localhost
-
   tasks:
   - name: Test shell.
     shell: docker images ls
