@@ -5,10 +5,10 @@
   tasks:
   - name: Test shell.
     shell: whoami
-    become: yes
-    become_user: cris
+    #become: yes
+    #become_user: cris
 
   - name: Test shell.
     command: ifconfig
-    become: yes
-    become_user: cris
+    #become: yes
+    #become_user: cris
