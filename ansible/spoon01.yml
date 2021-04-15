@@ -7,4 +7,4 @@
   tasks:
   - name: find disk space available.
    #shell: "docker container run --rm -v $(pwd):/jobs cmolaro/spoon:v1.0 runt sample/dummy.ktr"
-    shell: "docker container run --rm -v /work/docker/spoon:/jobs cmolaro/spoon:v1.0 runt sample/dummy.ktr"
+    shell: docker container run --rm -v /work/docker/spoon:/jobs cmolaro/spoon:v1.0 runt sample/dummy.ktr
