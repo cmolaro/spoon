@@ -4,7 +4,7 @@
 
   tasks:
   - name: Test shell.
-    shell: docker images ls
+    shell: ifconfig
 
   - name: Test shell.
-    command: docker images ls
+    command: whoami
