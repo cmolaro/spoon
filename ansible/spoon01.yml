@@ -4,4 +4,4 @@
 
   tasks:
   - name: Run Dummy transformation
-    shell: docker run --rm -v /work/docker/spoon:/jobs cmolaro/spoon:v1.0 runt sample/dummy.ktr
+    shell: docker run --rm -v /work/docker/spoon:/jobs cmolaro/spoon:v1.4 runt sample/dummy.ktr
