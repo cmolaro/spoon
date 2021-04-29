@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: spoon-job-dummy
+  labels:
+    purpose: demo-spoon-job
+spec:
+  containers:
+  - name: demo-spoon-job
+    image: cmolaro/spoon:v1.5
+    command: ["runt"]
+    args: ["sample/dummy.ktr"]
+  restartPolicy: OnFailure
